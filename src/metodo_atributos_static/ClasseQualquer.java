@@ -10,7 +10,15 @@ package metodo_atributos_static;
  * @author tiago.lucas
  */
 public class ClasseQualquer {
-    public static final int T = 30;
+    /*
+    “a palavra reservada static é usada para declarar uma variável 
+    que é associada com a classe, não com instâncias individuais 
+    daquela classe. Variáveis static são usadas para armazenar 
+    informações globais sobre uma classe. Existem mesmo se nenhuma 
+    instância de sua classe foi criada.”
+    */
+    public static final int L = 10;
+    public static int T = 30;
     
     /*
     A inicialização estática ocorre quando a classe é inicialmente

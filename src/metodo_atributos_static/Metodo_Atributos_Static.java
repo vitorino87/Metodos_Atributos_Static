@@ -54,6 +54,7 @@ public class Metodo_Atributos_Static {
         System.out.println(x);
         System.out.println(Math.PI);
         
+        ClasseQualquer.T = 10;
         ClasseQualquer cq = new ClasseQualquer();
         
 
